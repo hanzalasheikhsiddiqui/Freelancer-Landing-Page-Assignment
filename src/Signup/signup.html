@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>payme-signup</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#f4f7f6] flex items-center justify-center min-h-screen">
+
+  <div class="bg-white p-8 rounded-xl shadow-lg w-[90%] max-w-md">
+    <h2 class="text-3xl font-bold mb-6 text-center text-[#008b8b]">
+      Create Account
+    </h2>
+
+    <form id="signupForm" class="flex flex-col gap-4">
+      <input type="text" id="name" placeholder="Enter Name"
+        class="w-full p-3 border rounded-md focus:outline-[#008b8b]" required>
+
+      <input type="email" id="email" placeholder="Enter Email"
+        class="w-full p-3 border rounded-md focus:outline-[#008b8b]" required>
+
+      <input type="password" id="password" placeholder="Enter Password"
+        class="w-full p-3 border rounded-md focus:outline-[#008b8b]" required>
+
+      <p id="error" class="text-red-500 text-sm hidden"></p>
+
+      <button type="submit"
+        class="w-full bg-[#008b8b] text-white py-3 rounded-md hover:bg-[#006d6d] transition">
+        Signup
+      </button>
+    </form>
+
+    <p class="text-sm mt-5 text-center">
+      Already have an account? 
+      <a href="../login/index.html" class="text-[#008b8b] font-semibold">Login</a>
+    </p>
+  </div>
+
+<script src="signup.js"></script>
+</body>
+</html>
