@@ -28,28 +28,6 @@ Technologies Used
 
 ---
 
-Actual Folder Structure
-
-project-folder/
-│
-├── src/
-│   ├── index.html
-│   ├── input.css
-│   ├── output.css
-│   ├── app.js
-│   │
-│   ├── login/
-│   │   ├── login.html
-│   │   └── login.js
-│   │
-│   └── signup/
-│       ├── signup.html
-│       └── signup.js
-│
-└── README.md
-
----
-
 How Authentication Works
 
 • User creates an account on the Signup page  
@@ -61,9 +39,9 @@ How Authentication Works
 
 ---
 
-⚙️ How To Run This Project
+ How To Run This Project
 
-✔ Method 1 – Simple
+ Method 1 – Simple
 
 1. Download or clone the repository
 2. Open this file in browser:
@@ -85,16 +63,6 @@ npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 4. Now open:
 
 /src/index.html
-
----
-
-Screenshots (Optional)
-
-You can add screenshots here later like this:
-
-![Home Page](./assets/home.png)
-![Login Page](./assets/login.png)
-![Signup Page](./assets/signup.png)
 
 ---
 
