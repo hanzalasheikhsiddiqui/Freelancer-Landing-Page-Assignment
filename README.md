@@ -1,4 +1,3 @@
-{"id":"79436","variant":"standard","title":"Freelancer Landing Page – README (Updated Structure)"}
 Freelancer Landing Page  
 Built with HTML, Tailwind CSS & JavaScript
 
