@@ -1,13 +1,11 @@
 Freelancer Landing Page  
 Built with HTML , Tailwind CSS & Javascript..
 
-
 A modern and responsive freelancer landing page with a working Login & Signup system using Browser Local Storage. This project is fully front-end based and built for practicing real-world UI and authentication logic without a backend.
 
 ---
 
 Features
-
 • Fully responsive design (mobile, tablet & desktop)  
 • Styled using Tailwind CSS  
 • Clean and modern freelancer landing page layout  
